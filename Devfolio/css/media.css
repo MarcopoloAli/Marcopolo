@@ -1,0 +1,145 @@
+@media (max-width: 575.98px) {
+    .about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .about .image{
+        width: 50% !important;
+    }
+
+    .about .info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .child1{
+
+        width: 100% !important;
+
+    } 
+
+    .about .child2{
+
+        width: 100% !important;
+
+    } 
+
+    div.services div.header p::after{
+    
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 100%;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+    
+    }
+
+    div.services div.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        
+
+    }
+
+    div.numbers{
+        flex-direction: column;
+        align-items: center;
+
+        height: auto;
+        padding-block: 22px;
+
+    }
+
+    div.numbers div.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    div.portfolio div.header p::after{
+    
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 100%;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+    
+    }
+
+
+    .portfolio .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    div.blog div.header p::after{
+    
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 100%;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+    
+    }
+
+    .blog .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact{
+        height: auto;
+    }
+
+    .contact .row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .contact .container{
+        width: 90%;
+    }
+    
+     }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) { 
+
+    .about .image{
+        width: 50% !important;
+    }
+
+    .about .info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1399.98px) {  }

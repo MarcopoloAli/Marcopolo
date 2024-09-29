@@ -1,0 +1,314 @@
+
+/* NavStart */
+div.header{
+    color: rgba(0, 0, 0, 0.6);    
+    }
+    /* NavEnd */
+    /* HomeStart */
+    div.home{
+        position: relative;
+           background-image:url(/css/images/hero-bg.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 100vh;
+       }
+       
+    
+    div.cover{
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0px;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9;  
+    
+    }
+    
+    p.anim::before{
+        content: "";
+           
+        animation:hero 10s infinite;
+        
+    }
+    
+    div.text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aliceblue;
+        font-size: 24px;
+    }
+    div.container p.anim span{
+        animation:rod 10s infinite;
+    }
+    
+    /* About-start */
+    div.about{
+        margin-block: 80px;
+        padding: 20px 0;
+    }
+    div.child2 h2{
+        position: relative;
+    }
+    
+    div.child2 h2::after
+    {     content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 40px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    
+    }
+    /* about-end */
+    
+    div.services div.col{
+        background-color: #ffffff;
+    }
+    div.services div.icon{
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 6px solid #0d6efd;
+        border-radius: 50%;
+        transition: 0.5s;
+       
+    }
+    
+    div.services div.col:hover div.icon{
+    background-color: #0d6efd;
+    border: 6px solid #cde1f8;
+    color: #ffffff;
+    
+    }
+    
+    div.services div.header p {
+        position: relative;
+    }
+    div.services div.header p::after{
+    
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 40px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        transform: translateX(-50px);
+    
+    }
+    /* services-end */
+    /* numbers-start */
+    div.numbers{
+        height: 50vh;
+        background-image: url(/css/images/counters-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:cover;
+        position: relative;
+        background-attachment: fixed;
+    
+    }
+    div.numbers div.cover{
+        position: absolute;
+        background-color: rgba(13, 109, 253, 0.579);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+    div.numbers div.icon{
+        border: 6px solid #ffffff;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    
+       /* Portfolio-start */
+        
+    div.portfolio .col:hover img{
+        transform:scale(1.5);
+        
+        
+    
+    }
+    
+    div.portfolio .col img{
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        
+    }
+    
+    
+    div.portfolio .col{
+    
+        cursor: pointer;
+        
+    
+    }
+    
+    div.portfolio div.header p{
+        position: relative;
+    }
+    
+    div.portfolio div.header p::after{
+    
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 40px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        transform: translateX(-50px);
+    
+    }
+    /* Portfolio-end */
+    
+    /* comment-start */
+    
+    div.comments{
+        position: relative;
+        background-image: url(/css/images/overlay-bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 75vh;
+    }
+    
+    div.comments div.cover{
+        position: absolute;
+        background-color: rgba(13, 109, 253, 0.579);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    /* Blog-st */
+    
+    div.blog div.image{
+        position: relative;
+    }
+    .card-button{
+    position: absolute ;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    
+    }
+    
+    div.blog div.header p{
+        position: relative;
+    }
+    
+    
+    div.blog div.header p::after{
+    
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 40px;
+        bottom: 0;
+        right: 0;
+        left: 50%;
+        transform: translateX(-50px);
+    
+    }
+    
+    /* contact-st */
+    
+    .contact{
+    height: 110vh;
+    background-image: url(/css/images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+    div.contact div.cover{
+        position: absolute;
+        background-color: rgba(13, 109, 253, 0.579);
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    .social i{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+       
+        border: 3px solid #0d6efd;
+        border-radius: 50%;
+        transition: 500ms;
+    }
+    
+    a.social:hover i{
+        background-color: #0d6efd;
+        color: #ffffff;
+        border: 3px solid #cde1f8;
+    
+    }
+    
+    div.contact{
+       box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1) ;
+    }
+    div.contact h1{
+        position: relative;
+    }
+    div.contact h1::after{
+    
+        
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 3px;
+        background-color: #0d6efd;
+        top: 40px;
+        top:90% ;
+        right: 100%;
+        transform: translateX(100%);
+        
+    
+    }
+    
+    .footer{
+        background-color: #0062d3;
+    
+    }
